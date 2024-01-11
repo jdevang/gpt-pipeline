@@ -1,0 +1,3 @@
+- The syntax_corrector prompt baseline design is attributed to https://github.com/biobootloader/wolverine
+- The better_prompter prompt baseline design is attributed to https://github.com/unconv/gpt-autopilot
+- The LICENSE is derived to follow the above repository licenses.

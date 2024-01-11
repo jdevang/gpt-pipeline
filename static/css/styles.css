@@ -1,0 +1,416 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #40414f;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #40414f;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #565869;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  h5 {
+
+    color: #565869;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+.logo {
+    width: 200px;
+    height: 200px;
+    font-size: 24px;
+    border-radius: 70px;
+    font-weight: bold;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #40414f;
+    color: #FFFFFF;
+}
+
+.WebSite-name {
+    font-size: 32px;
+    font-weight: bold;
+    color: #565869;
+}
+
+.smalllogo {
+    width: 70px;
+    height: 70px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.copy-button {
+  background-color: #2755af;
+  color: #FFFFFF;
+  float: right;
+  margin-right: 4px;
+  padding: 5px 5px;
+}
+
+button {
+    background-color: #202123;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-top: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+  }
+
+#input-submit {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+button:hover {
+    background-color: #FF8266;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #40414f;
+  }
+  
+  .login-form h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #de222c;
+    margin-bottom: 20px;
+  }
+  
+  .login-form label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #343541;
+    background-color: #343541;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #cccccc;
+    margin-bottom: 20px;
+  }
+
+  .login-form input[type="text"]:active,
+  .login-form input[type="text"]:focus,
+  .login-form input[type="password"]:active,
+  .login-form input[type="password"]:focus {
+    outline: none;
+    border: 2px solid #202123;
+    padding: 2px solid;
+  }
+  
+  .login-form button[type="submit"] {
+    background-color: #3c46ff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 3px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .login-form button[type="submit"]:hover {
+    background-color: #0000ff;
+  }
+  
+
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  .register-form h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #de222c;
+    margin-bottom: 20px;
+  }
+  
+  .register-form label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  
+  .register-form input[type="text"],
+  .register-form input[type="email"],
+  .register-form input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  
+  .register-form button[type="submit"] {
+    background-color: #de222c;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 3px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .register-form button[type="submit"]:hover {
+    background-color: #b21724;
+  }
+.register-entryzone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-field {
+    border: 1px solid #F0F0F0;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.chat-area {
+    background-color: #343541;
+    padding: 20px;
+    overflow-y: auto;
+    height: 75vh;
+    scroll-behavior: smooth;
+}
+
+.chat-bubble {
+    max-width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.user-message {
+    background-color: #444654;
+    color: #ececf1;
+    margin-left: auto;
+    align-self: flex-start;
+}
+
+.chatgpt-message {
+    background-color: #444654;
+    color: #ced2d8;
+    align-self: flex-end;
+}
+.chat-messages-container {
+    display: grid;
+}
+
+.chat-input {
+    /* display: flex; */
+    justify-content: space-evenly;
+    align-items: center;
+    
+    padding: 20px;
+    border-top: 1px solid #40414f;
+    background-color: #40414f;
+    /* -webkit-box-shadow: 0px -4px 3px #000000;
+    -moz-box-shadow: 0px -4px 3px #000000;
+    box-shadow: 0px -4px 3px #000000; */
+}
+
+form {
+  text-align: center;
+}
+
+.text-input {
+    /* flex-grow: 1; */
+    border: 1px solid #343541;
+    background-color: #343541;
+    color: #cccccc;
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 10px;
+    width: 80vw;
+    height: 80vh;
+    resize: none;
+    max-height: 100vh;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.text-input:focus, .text-input:active {
+  outline: none;
+  border: 2px solid #202123;
+  padding: 2px solid;
+}
+
+/* Reset default styles for select */
+select {
+  appearance: none;
+  border: none;
+  background-color: transparent;
+  padding: 10px;
+  font-size: 16px;
+  color: #333333;
+  font-family: sans-serif;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+}
+
+/* Add a custom arrow icon */
+select:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: calc(50% - 5px);
+  right: 10px;
+  width: 10px;
+  height: 10px;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  transform: rotate(45deg);
+  pointer-events: none;
+}
+
+/* Style the dropdown when it's open */
+select:focus {
+  outline: none;
+}
+
+/* Style the option elements */
+select option {
+  background-color: #ffffff;
+  color: #333333;
+  font-size: 16px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Style the selected option */
+select option:checked {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+
+.indeterminate-progress-bar {
+  /* Color */
+  background-color: #d1d5db;
+  display: none;
+  /* Rounded border */
+  border-radius: 9999px;
+
+  /* Size */
+  height: 0.2rem;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.indeterminate-progress-bar__progress {
+  /* Color */
+  background-color: #089495;
+
+  /* Rounded border */
+  border-radius: 9999px;
+
+  /* Absolute position */
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  width: 50%;
+
+  /* Move the bar infinitely */
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: indeterminate-progress-bar;
+}
+
+@keyframes indeterminate-progress-bar {
+  from {
+      left: -50%;
+  }
+  to {
+      left: 100%;
+  }
+}
+
+div[contenteditable]{
+  max-height: 90vh;
+  overflow: auto;
+  flex-grow: 1;
+  border: 1px solid #343541;
+  background-color: #343541;
+  color: #cccccc;
+  border-radius: 3px;
+  font-size: 14px;
+  padding: 10px;
+  width: 60vw;
+  margin-right: 10px;
+}
+
+div[contenteditable]:focus, div[contenteditable]:active {
+  outline: none;
+  border: 2px solid #202123;
+  padding: 2px solid;
+}
+
+.code-div {
+  width: 45%;
+  float: left;
+  padding-left: 5px;
+}
+
+.exp-div {
+  width: 45%;
+  float: right;
+  padding: 10px;
+  color: #cccccc;
+}
+

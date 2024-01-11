@@ -1,0 +1,5 @@
+venv/
+linenv/
+**__pycache__/
+*.zip
+*temp*
